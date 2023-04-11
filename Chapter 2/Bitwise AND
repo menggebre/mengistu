@@ -1,0 +1,9 @@
+#include<iostream>
+Using namespace std;
+int main(){
+//declare variabke 
+	int c=5,d=6;	
+cout<<"c="<<d<<endl;	
+cout<<"d="<<d<<endl;
+cout<<"c&d="<<(c&d)<<endl; 	
+return 0;}
