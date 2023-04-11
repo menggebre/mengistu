@@ -1,0 +1,10 @@
+#include<iostream>
+Using namspace std;
+int main(){	
+int c,d;	// 4 is assignde to c	c=4;	// d is assigned to 8	d=8;	
+cout<<"c="<<c<<endl;	
+cout<<"d="<<d<<endl;	
+cout<<"\nAfter c+=d"<<endl;	//assigning the sum of c and d to a	
+c+=d;//c=c+d	
+cout<<"c="<<c<<endl; 
+return 0;}
