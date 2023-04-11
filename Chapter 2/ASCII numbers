@@ -1,0 +1,6 @@
+#include <iostream>
+using namespace std;
+int main(){
+char c;cout<<"enter my character";
+cin>>c;cout<<"\nthe ASCII value character["<<c<<"] is "<<int(c)<<"\n";
+return 0;}
