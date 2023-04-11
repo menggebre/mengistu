@@ -1,0 +1,19 @@
+ #include <iostream>
+using namespace std;
+int main() {  
+  int a, b;    a = 20;    b = 18;    // printing the sum of a and b
+    cout << "a + b = " << (a + b) << endl;    // printing the difference of a and b  
+  cout << "a - b = " << (a - b) << endl;    // printing the product of a and b  
+  cout << "a * b = " << (a * b) << endl;    // printing the division of a by b  
+  cout << "a / b = " << (a / b) << endl;    // printing the modulo of a by b   
+ cout << "a % b = " << (a % b) << endl;{   int num1, num2;  cout << "Enter first number: "; 
+  cin >> num1;  
+ cout << "Enter second number: ";  
+ cin >> num2;   if (num1 > num2) {   
+   cout << num1 << " is greater than " << num2 << endl;   } 
+else if (num1 < num2) {     
+ cout << num1 << " is smaller than " << num2 << endl;   }
+ else {    
+  cout << num1 << " and " << num2 << " are equal" << endl;   }  
+ return 0;
+}
