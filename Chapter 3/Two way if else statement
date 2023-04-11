@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int m;	
+cout<<"enter intger";	
+cin>>m;	if(m<=0){	
+	cout<<"enter negative number"<<m<<endl;	}
+	else{cout<<"enter positive"<<m<<endl;	}	
+return 0;}
