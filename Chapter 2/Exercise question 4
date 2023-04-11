@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main(){	
+float a,b,c,x1,x2,determinant,realpart,imaginarypart;
+	cout<<"enter coefcient a";	
+cin>>a;	cout<<"\nenter coefcient b";	
+cin>>b;	cout<<"\nenter coefcient c";	
+cin>>c;	determinant=b*b-4*a*c;	
+if (determinant>0)	
+{		
+x1=(-b+bsqrt(determinant)) /(2*a);		
+x2=(-b-bsqrt(determinant)) /(2*a);	
+	cout<<"\nRoots are real and diffrent"<<endl;	
+	cout<<"\nx1="<<x1<<endl;	
+	cout<<"\nx2="<<x2<<endl;		
+	}	
+else if(determinant==0)	{	
+	cout<<"\nRoots are real and same "<<endl;	
+	x1=(-b+bsqrt(determinant)) /(2*a);	
+	cout<<"\nx1=x2="<<x1<<endl;		
+	}	else	{	
+realpart=-b/(2*a);	
+imaginarypart=sqrt(-determinant)) /(2*a);	
+cout<<"\nRoots are complex and diffrent"<<endl;	
+cout<<"\nx1="<<realpart<<"+"<<imaginarypart<<"i"<<endl;	
+cout"\nx2="<<realpart<<"-"<<maginarypart<<"i"<<endl;	
+	}	
+return 0;}
