@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+int main() {  
+ int x = 7, y = 4, z = 9, product; 
+  product = x * y * z;  
+ cout << "The product of " << x << ", " << y << ", and " << z << " is " << product << endl; 
+  return 0;}
