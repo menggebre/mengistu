@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int(){	
+double c,r;	const double pi=3.14;	
+cout<<"enter the radius of the circle"<<endl;	
+cin>>r;
+	c=2*pi*r;	
+cout<<"the circumfrense of the circle is ="<<c;
+	return 0; }
