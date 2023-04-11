@@ -1,0 +1,8 @@
+#include<iostream>
+ Using namespace std;	
+int m;	
+cout<<"write a number";	
+cin>>m;	// check the number is even	
+if (m%2==0){		
+cout<<" write an even number"<<m<<endl;	}		
+	return 0;}
