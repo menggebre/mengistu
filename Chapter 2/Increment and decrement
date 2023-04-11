@@ -1,0 +1,8 @@
+#include <iostream>
+Using namespace std;
+int main(){	
+int a=20,b=100,result_a,result_b;	// increament a by 2 and storing the result in result 
+aresult_a=++a;	
+cout<<"result_a="<<result_a<<endl;	//decreamenting b by 2 and storing the result in result b	
+result_b=-b;	cout<<"result_b="<<result_b<<endl;	
+return 0;}
