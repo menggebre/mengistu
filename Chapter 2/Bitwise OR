@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main(){	
+int c=5,d=6;	
+cout<<"c="<<c<<endl;	
+cout<<"d="<<d<<endl;	
+cout<<"c|d="<<(c|d)<<endl;
+	return 0;}
