@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name = "John"; // declare and initialize a string variable
+    
+    // print the string to the console
+    cout << "Hello, " << name << "!" << endl;
+    
+    // concatenate two strings
+    string greeting = "How are you, ";
+    string message = greeting + name + "?";
+    cout << message << endl;
+    
+    // get the length of the string
+    int length = name.length();
+    cout << "The length of the name is " << length << endl;
+    
+    // access individual characters in the string
+    char firstLetter = name[0];
+    cout << "The first letter of the name is " << firstLetter << endl;
+    
+    return 0;
+}
