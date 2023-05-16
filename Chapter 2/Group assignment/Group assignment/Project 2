@@ -1,0 +1,55 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    int arr1[5], arr2[3][3];
+    string str;
+
+    // One-dimensional array input
+    cout << "Enter five integers for the one-dimensional array: ";
+    for (int i = 0; i < 5; i++) {
+        cin >> arr1[i];
+    }
+
+    // Two-dimensional array input
+    cout << "Enter nine integers for the two-dimensional array: ";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cin >> arr2[i][j];
+        }
+    }
+
+    // String input
+    cout << "Enter a string: ";
+    cin >> str;
+
+    // One-dimensional array output
+    cout << "The one-dimensional array is: ";
+    for (int i = 0; i < 5; i++) {
+        cout << arr1[i] << " ";
+    }
+    cout << endl;
+
+    // Two-dimensional array output
+    cout << "The two-dimensional array is:\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << arr2[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    // String output
+    cout << "The string is: " << str << endl;
+
+    return 0;
+}
+//group memebers
+//Mengistu Gebre  Ru2073/14
+//Demise Zewudu Ru0381/14
+// Haymanot Melkamu Ru0411/14
+//Abdhulkafi Abhjahd  Ru1196/14
+
