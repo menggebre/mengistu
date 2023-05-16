@@ -1,0 +1,90 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num, sum = 0;
+    char ch;
+    bool flag = true;
+
+    // If statement
+    cout << "Enter a number: ";
+    cin >> num;
+    if (num % 2 == 0) {
+        cout << num << " is even." << endl;
+    }
+
+    // If-else statement
+    cout << "Enter a character: ";
+    cin >> ch;
+    if (ch >= 'a' && ch <= 'z') {
+        cout << ch << " is a lowercase letter." << endl;
+    }
+    else {
+        cout << ch << " is not a lowercase letter." << endl;
+    }
+
+    // Multiple if-else statement
+    cout << "Enter another number: ";
+    cin >> num;
+    if (num > 0) {
+        cout << num << " is positive." << endl;
+    }
+    else if (num < 0) {
+        cout << num << " is negative." << endl;
+    }
+    else {
+        cout << num << " is zero." << endl;
+    }
+
+    // For loop
+    cout << "Enter a positive integer: ";
+    cin >> num;
+    for (int i = 1; i <= num; i++) {
+        sum += i;
+    }
+    cout << "The sum of the integers from 1 to " << num << " is " << sum << "." << endl;
+
+    // While loop
+    cout << "Enter a positive integer: ";
+    cin >> num;
+    while (num > 0) {
+        cout << num << " ";
+        num--;
+    }
+    cout << endl;
+
+    // Do-while loop
+    do {
+        cout << "Enter a lowercase letter: ";
+        cin >> ch;
+        if (ch >= 'a' && ch <= 'z') {
+            flag = false;
+        }
+    } while (flag);
+    cout << "You entered " << ch << "." << endl;
+
+    // Switch statement
+    cout << "Enter a number between 1 and 3: ";
+    cin >> num;
+    switch (num) {
+        case 1:
+            cout << "You entered one." << endl;
+            break;
+        case 2:
+            cout << "You entered two." << endl;
+            break;
+        case 3:
+            cout << "You entered three." << endl;
+            break;
+        default:
+            cout << "Invalid input." << endl;
+            break;
+    }
+
+    return 0;
+}
+// group memebers
+//Mengistu Gebre  Ru2073/14
+//Demise Zewudu Ru0381/14
+// Haymanot Melkamu Ru0411/14
+//Abdhulkafi Abhjahd  Ru1196/14
